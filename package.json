@@ -1,0 +1,24 @@
+{
+  "name": "dojo-flow-vue",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 5173",
+    "lint": "eslint --ext .js,.vue src",
+    "test:a11y": "pa11y http://localhost:5173 || true"
+  },
+  "dependencies": {
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4",
+    "bootstrap": "^5.3.2"
+  },
+  "devDependencies": {
+    "vite": "^4.3.9",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "eslint": "^8.30.0",
+    "eslint-plugin-vue": "^9.13.0",
+    "pa11y": "^6.0.0"
+  }
+}
