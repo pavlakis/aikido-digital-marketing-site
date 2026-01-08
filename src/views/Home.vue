@@ -25,45 +25,6 @@
       </div>
     </section>
 
-    <!-- Features Preview -->
-    <section class="features-section" role="region" aria-labelledby="features-heading">
-      <div class="container">
-        <div class="text-center mb-5">
-          <h2 id="features-heading" class="display-5 fw-bold text-dark mb-3">Why Choose DojoFlow?</h2>
-          <p class="lead text-muted">Comprehensive tools designed specifically for martial arts schools</p>
-        </div>
-        <div class="row g-4">
-          <div class="col-lg-4 col-md-6">
-            <div class="feature-card">
-              <div class="feature-icon">
-                <i class="fas fa-users" aria-hidden="true"></i>
-              </div>
-              <h4 class="fw-bold mb-3">Member Management</h4>
-              <p>Track student progress, manage memberships, and handle billing all in one place.</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="feature-card">
-              <div class="feature-icon">
-                <i class="fas fa-calendar-alt" aria-hidden="true"></i>
-              </div>
-              <h4 class="fw-bold mb-3">Class Scheduling</h4>
-              <p>Effortlessly schedule classes, manage instructor assignments, and handle bookings.</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="feature-card">
-              <div class="feature-icon">
-                <i class="fas fa-chart-line" aria-hidden="true"></i>
-              </div>
-              <h4 class="fw-bold mb-3">Analytics & Reports</h4>
-              <p>Get insights into your business performance with detailed analytics and reporting.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- Trusted By Section -->
     <section class="trusted-by-section" role="region" aria-labelledby="trusted-heading">
       <div class="container">
