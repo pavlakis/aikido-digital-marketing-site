@@ -8,7 +8,7 @@
     <footer class="footer" role="contentinfo">
       <div class="container">
         <div class="row">
-          <div class="col-lg-4 col-md-6 mb-4">
+          <div class="col-lg-6 col-md-6 mb-4">
             <h5>AikidoDigital</h5>
             <p>Streamline your aikido dojo management with our comprehensive platform designed for aikido dojos and associations.</p>
             <div class="social-icons">
@@ -18,27 +18,11 @@
               <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
             </div>
           </div>
-          <div class="col-lg-2 col-md-6 mb-4">
-            <h5>Product</h5>
-            <ul class="list-unstyled">
-              <li><a href="#" class="footer-link">Features</a></li>
-              <li><a href="#" class="footer-link">Pricing</a></li>
-              <li><a href="#" class="footer-link">API</a></li>
-              <li><a href="#" class="footer-link">Support</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-2 col-md-6 mb-4">
-            <h5>Company</h5>
-            <ul class="list-unstyled">
-              <li><a href="#" class="footer-link">About</a></li>
-              <li><a href="#" class="footer-link">Blog</a></li>
-              <li><a href="#" class="footer-link">Careers</a></li>
-              <li><a href="#" class="footer-link">Press</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-4">
+
+          <!-- Contact info moved to the right column and right-aligned on md+ -->
+          <div class="col-lg-6 col-md-6 mb-4 text-md-end">
             <h5>Contact Info</h5>
-            <p><i class="fas fa-envelope me-2" aria-hidden="true"></i>info@dojoflow.com</p>
+            <p><i class="fas fa-envelope me-2" aria-hidden="true"></i><a href="mailto:info@dojoflow.com">info@dojoflow.com</a></p>
             <p><i class="fas fa-phone me-2" aria-hidden="true"></i>+1 (555) 123-4567</p>
             <p><i class="fas fa-map-marker-alt me-2" aria-hidden="true"></i>123 Martial Arts Ave, Dojo City, DC 12345</p>
           </div>
