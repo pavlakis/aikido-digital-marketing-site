@@ -6,8 +6,8 @@
         <div class="row align-items-center">
           <div class="col-lg-6">
             <div class="hero-content">
-              <h1 class="display-4 fw-bold mb-4">Go Digital with your Aikido Management</h1>
-              <p class="lead mb-4">Streamline your dojo operations, manage memberships, track progress, and grow your aikido community with AikidoDigital - the complete management platform for aikido dojos and associations.</p>
+              <h1 class="display-4 fw-bold mb-4">Spend Less Time on Admin. More Time on Aikido.</h1>
+              <p class="lead mb-4">Streamline your dojo operations, manage memberships, track progress, and grow your aikido community with AikidoDigital, the complete management platform for aikido dojos and associations.</p>
               <div class="d-flex flex-wrap gap-3">
                 <router-link to="/pricing" class="btn btn-primary btn-lg" role="button">Start Free Trial</router-link>
                 <button class="btn btn-outline-primary btn-lg" @click="watchDemo" type="button">
