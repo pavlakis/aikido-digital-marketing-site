@@ -34,12 +34,12 @@
         </div>
 
         <div class="row g-4 align-items-center justify-content-center">
+
           <div class="col-lg-2 col-md-4 col-6 text-center">
             <div class="logo-container">
               <div>
-                <i class="fas fa-fist-raised logo-icon" aria-hidden="true"></i>
-                <div class="logo-name">Dragon's Den</div>
-                <div class="logo-discipline">Karate Academy</div>
+                <img src="/logos/joint-aikikai-council.jpg" alt="Joint Aikikai Council Logo" class="logo-image" />
+                <div class="logo-name">Joint Aikikai Council</div>
               </div>
             </div>
           </div>
@@ -47,9 +47,8 @@
           <div class="col-lg-2 col-md-4 col-6 text-center">
             <div class="logo-container">
               <div>
-                <i class="fas fa-yin-yang logo-icon" aria-hidden="true"></i>
-                <div class="logo-name">Zen Warriors</div>
-                <div class="logo-discipline">Taekwondo Club</div>
+                <img src="/logos/british-birankai.jpeg" alt="British Birankai Logo" class="logo-image" />
+                <div class="logo-name">British Birankai</div>
               </div>
             </div>
           </div>
@@ -57,9 +56,8 @@
           <div class="col-lg-2 col-md-4 col-6 text-center">
             <div class="logo-container">
               <div>
-                <i class="fas fa-fire logo-icon" aria-hidden="true"></i>
-                <div class="logo-name">Phoenix Martial Arts</div>
-                <div class="logo-discipline">Mixed Martial Arts</div>
+                <img src="/logos/united-kingdom-aikikai.png" alt="United Kingdom Aikikai Logo" class="logo-image" />
+                <div class="logo-name">United Kingdom Aikikai</div>
               </div>
             </div>
           </div>
@@ -67,32 +65,14 @@
           <div class="col-lg-2 col-md-4 col-6 text-center">
             <div class="logo-container">
               <div>
-                <i class="fas fa-mountain logo-icon" aria-hidden="true"></i>
-                <div class="logo-name">Summit Dojo</div>
-                <div class="logo-discipline">Jiu-Jitsu School</div>
+                <img src="/logos/leicester-aikikai.png" alt="Leicester Aikikai Logo" class="logo-image" />
+                <div class="logo-name">Leicester Aikikai</div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-4 col-6 text-center">
-            <div class="logo-container">
-              <div>
-                <i class="fas fa-bolt logo-icon" aria-hidden="true"></i>
-                <div class="logo-name">Lightning Strike</div>
-                <div class="logo-discipline">Kickboxing Gym</div>
-              </div>
-            </div>
-          </div>
 
-          <div class="col-lg-2 col-md-4 col-6 text-center">
-            <div class="logo-container">
-              <div>
-                <i class="fas fa-shield-alt logo-icon" aria-hidden="true"></i>
-                <div class="logo-name">Iron Shield</div>
-                <div class="logo-discipline">Kung Fu Academy</div>
-              </div>
-            </div>
-          </div>
+
         </div>
 
 
@@ -113,4 +93,47 @@ export default {
 </script>
 
 <style scoped>
+/* Logo sizing to match icon-based logos */
+.logo-image {
+  width: 6rem; /* increased for prominence */
+  height: 6rem;
+  max-width: 100%;
+  object-fit: contain;
+  display: inline-block;
+  margin: 0 auto;
+  border-radius: 6px; /* subtle rounding for aesthetic */
+}
+
+@media (min-width: 768px) {
+  .logo-image {
+    width: 8rem;
+    height: 8rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .logo-image {
+    width: 10rem;
+    height: 10rem;
+  }
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.25rem;
+  text-align: center;
+}
+
+.logo-name {
+  font-weight: 600;
+  margin-top: 0.25rem;
+}
+
+.logo-discipline {
+  font-size: 0.85rem;
+  color: #666;
+}
 </style>
