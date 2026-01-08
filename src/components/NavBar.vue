@@ -3,7 +3,7 @@
     <div class="container">
       <router-link class="navbar-brand d-flex align-items-center" to="/" aria-label="AikidoDigital Home">
         <img src="/aikido-digital-32x32-small.png" alt="AikidoDigital logo" width="32" height="32" />
-        <span>Aikido Digital</span>
+        <span class="brand"><span class="brand-a">Aikido</span><span class="brand-d">Digital</span></span>
       </router-link>
 
       <button
@@ -117,6 +117,9 @@ export default {
 <style>
 .navbar { box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
 .navbar-brand { font-weight: 700; color: #F27D2A; }
+.navbar-brand .brand { display: inline-block; margin-left: 0.5rem; }
+.navbar-brand .brand-a { color: #000000; }
+.navbar-brand .brand-d { color: #ff0000; }
 .nav-link:focus { outline: 3px solid #F27D2A; outline-offset: 2px; }
 body { padding-top: 70px; }
 </style>
