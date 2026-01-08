@@ -1,9 +1,9 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" role="navigation" aria-label="Main navigation">
     <div class="container">
-      <router-link class="navbar-brand d-flex align-items-center" to="/" aria-label="DojoFlow Home">
-        <i class="fas fa-fist-raised me-2" aria-hidden="true"></i>
-        <span>DojoFlow</span>
+      <router-link class="navbar-brand d-flex align-items-center" to="/" aria-label="AikidoDigital Home">
+        <img src="/aikido-digital-32x32-small.png" alt="AikidoDigital logo" width="32" height="32" />
+        <span>Aikido Digital</span>
       </router-link>
 
       <button
