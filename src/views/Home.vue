@@ -39,7 +39,7 @@
             <div class="logo-container">
               <div>
                 <img src="/logos/joint-aikikai-council.jpg" alt="Joint Aikikai Council Logo" class="logo-image" />
-                <div class="logo-name">Joint Aikikai Council</div>
+<!--                <div class="logo-name">Joint Aikikai Council</div>-->
               </div>
             </div>
           </div>
@@ -48,7 +48,7 @@
             <div class="logo-container">
               <div>
                 <img src="/logos/british-birankai.jpeg" alt="British Birankai Logo" class="logo-image" />
-                <div class="logo-name">British Birankai</div>
+<!--                <div class="logo-name">British Birankai</div>-->
               </div>
             </div>
           </div>
@@ -57,7 +57,7 @@
             <div class="logo-container">
               <div>
                 <img src="/logos/united-kingdom-aikikai.png" alt="United Kingdom Aikikai Logo" class="logo-image" />
-                <div class="logo-name">United Kingdom Aikikai</div>
+<!--                <div class="logo-name">United Kingdom Aikikai</div>-->
               </div>
             </div>
           </div>
@@ -66,7 +66,7 @@
             <div class="logo-container">
               <div>
                 <img src="/logos/leicester-aikikai.png" alt="Leicester Aikikai Logo" class="logo-image" />
-                <div class="logo-name">Leicester Aikikai</div>
+<!--                <div class="logo-name">Leicester Aikikai</div>-->
               </div>
             </div>
           </div>
@@ -97,9 +97,11 @@ export default {
 .logo-image {
   width: 6rem; /* increased for prominence */
   height: 6rem;
+  min-height: 5.5rem; /* ensure consistent visual baseline */
+  max-height: 6rem;   /* prevent oversized images */
   max-width: 100%;
   object-fit: contain;
-  display: inline-block;
+  display: block; /* make centering reliable */
   margin: 0 auto;
   border-radius: 6px; /* subtle rounding for aesthetic */
 }
@@ -108,6 +110,8 @@ export default {
   .logo-image {
     width: 8rem;
     height: 8rem;
+    min-height: 7.5rem;
+    max-height: 8rem;
   }
 }
 
@@ -115,6 +119,8 @@ export default {
   .logo-image {
     width: 10rem;
     height: 10rem;
+    min-height: 9.5rem;
+    max-height: 10rem;
   }
 }
 
