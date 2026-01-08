@@ -29,8 +29,8 @@
     <section class="trusted-by-section" role="region" aria-labelledby="trusted-heading">
       <div class="container">
         <div class="text-center mb-5">
-          <h2 id="trusted-heading" class="display-5 fw-bold mb-4 trusted-section-heading">Trusted by Leading Martial Arts Organizations</h2>
-          <p class="lead trusted-section-lead">Join these dojos and organizations that have moved to digital-first, paperless memberships</p>
+          <h2 id="trusted-heading" class="display-5 fw-bold mb-4 trusted-section-heading">Trusted by Leading Aikido Dojos and Associations</h2>
+          <p class="lead trusted-section-lead">Join these dojos and associations that have moved to digital-first, paperless memberships</p>
         </div>
 
         <div class="row g-4 align-items-center justify-content-center">
@@ -95,31 +95,7 @@
           </div>
         </div>
 
-        <div class="row mt-5">
-          <div class="col-lg-8 mx-auto">
-            <div class="stats-card">
-              <div class="row g-4">
-                <div class="col-md-4">
-                  <div class="stats-number">500+</div>
-                  <div class="stats-label">Dojos Transformed</div>
-                </div>
-                <div class="col-md-4">
-                  <div class="stats-number">95%</div>
-                  <div class="stats-label">Paperless Operations</div>
-                </div>
-                <div class="col-md-4">
-                  <div class="stats-number">2M+</div>
-                  <div class="stats-label">Digital Memberships</div>
-                </div>
-              </div>
-              <div class="mt-4">
-                <router-link to="/pricing" class="btn btn-primary btn-lg" role="button">
-                  Join These Leaders <i class="fas fa-arrow-right ms-2" aria-hidden="true"></i>
-                </router-link>
-              </div>
-            </div>
-          </div>
-        </div>
+
       </div>
     </section>
   </div>
