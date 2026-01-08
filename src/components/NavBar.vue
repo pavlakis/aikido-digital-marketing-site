@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" role="navigation" aria-label="Main navigation">
     <div class="container">
       <router-link class="navbar-brand d-flex align-items-center" to="/" aria-label="DojoFlow Home">
-        <span class="me-2" aria-hidden="true">🥋</span>
+        <i class="fas fa-fist-raised me-2" aria-hidden="true"></i>
         <span>DojoFlow</span>
       </router-link>
 
@@ -20,10 +20,16 @@
       <div :class="['collapse', 'navbar-collapse', { show: isOpen }]" id="navbarNav" ref="navPanel" @keydown="onKeydown">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <router-link class="nav-link" :class="{ active: $route.path === '/' }" to="/">Home</router-link>
+            <router-link class="nav-link" :class="{ active: $route.name === 'Home' }" :to="{ name: 'Home' }">Home</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" :class="{ active: $route.path === '/about' }" to="/about">About</router-link>
+            <router-link class="nav-link" :class="{ active: $route.name === 'Features' }" :to="{ name: 'Features' }">Features</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link" :class="{ active: $route.name === 'Pricing' }" :to="{ name: 'Pricing' }">Pricing</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link" :class="{ active: $route.name === 'Contact' }" :to="{ name: 'Contact' }">Contact</router-link>
           </li>
         </ul>
       </div>
