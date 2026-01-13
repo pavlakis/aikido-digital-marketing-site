@@ -65,6 +65,15 @@
           <div class="col-lg-2 col-md-4 col-6 text-center">
             <div class="logo-container">
               <div>
+                <img src="/logos/aikido-bedford.jpg" alt="Aikido Bedford Logo" class="logo-image" />
+                <!--                <div class="logo-name">Aikido Bedford</div>-->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 text-center">
+            <div class="logo-container">
+              <div>
                 <img src="/logos/leicester-aikikai.png" alt="Leicester Aikikai Logo" class="logo-image" />
 <!--                <div class="logo-name">Leicester Aikikai</div>-->
               </div>
