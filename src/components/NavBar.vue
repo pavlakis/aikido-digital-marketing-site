@@ -26,9 +26,6 @@
             <router-link class="nav-link" :class="{ active: $route.name === 'Features' }" :to="{ name: 'Features' }">Features</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" :class="{ active: $route.name === 'Pricing' }" :to="{ name: 'Pricing' }">Pricing</router-link>
-          </li>
-          <li class="nav-item">
             <router-link class="nav-link" :class="{ active: $route.name === 'Contact' }" :to="{ name: 'Contact' }">Contact</router-link>
           </li>
         </ul>

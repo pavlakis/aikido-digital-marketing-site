@@ -18,6 +18,11 @@ This document summarizes the marketing message changes made to align with https:
 
 ## Files Updated
 
+### 0. Navigation and Routing
+- **Removed:** Pricing page from navigation (`src/components/NavBar.vue`)
+- **Removed:** Pricing route from router configuration (`src/router/index.js`)
+- **Note:** PricingView.vue file still exists but is no longer accessible via navigation
+
 ### 1. Home Page (`src/views/Home.vue`)
 - **Hero Heading:** Changed from "Spend Less Time on Admin. More Time on Aikido." to "Aikido Membership Management"
 - **Hero Subtext:** Simplified from comprehensive platform description to focused membership management message
