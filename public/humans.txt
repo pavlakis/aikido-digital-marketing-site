@@ -1,0 +1,16 @@
+/* TEAM */
+Developer: AikidoDigital Team
+Contact: info@aikidodigital.com
+Twitter: @aikidodigital
+From: United Kingdom
+
+/* SITE */
+Last update: 2026/02/23
+Standards: HTML5, CSS3, JavaScript ES6+
+Components: Vue.js 3, Bootstrap 5, Vite
+Software: Visual Studio Code, Git
+
+/* THANKS */
+To the aikido community for inspiration and support.
+To all the dojos and organisations who trust AikidoDigital.
+

@@ -1,0 +1,12 @@
+# robots.txt for AikidoDigital
+# https://aikidodigital.com
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://aikidodigital.com/sitemap.xml
+
+# Crawl-delay (optional, in seconds)
+# Crawl-delay: 1
+

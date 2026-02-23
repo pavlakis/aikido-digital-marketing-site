@@ -2,6 +2,28 @@
   publish = "dist"
   command = "npm run build"
 
+# Custom headers for SEO and performance
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+# Ensure robots.txt and sitemap.xml are served correctly
+[[redirects]]
+  from = "/robots.txt"
+  to = "/robots.txt"
+  status = 200
+  force = false
+
+[[redirects]]
+  from = "/sitemap.xml"
+  to = "/sitemap.xml"
+  status = 200
+  force = false
+
+# SPA fallback for all other routes
 [[redirects]]
   from = "/*"
   to = "/index.html"
