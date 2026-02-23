@@ -3,8 +3,8 @@
     <section class="pricing-section" role="region" aria-labelledby="pricing-heading">
       <div class="container">
         <div class="text-center mb-5">
-          <h1 id="pricing-heading" class="display-4 fw-bold text-dark mb-3">Choose Your Plan</h1>
-          <p class="lead text-muted mb-4">Flexible pricing options that grow with your martial arts school</p>
+          <h1 id="pricing-heading" class="display-4 fw-bold text-dark mb-3">Membership Pricing</h1>
+          <p class="lead text-muted mb-4">Simple pricing for aikido organisations of all sizes</p>
 
           <div class="pricing-toggle" role="group" aria-label="Pricing period toggle">
             <button
@@ -29,51 +29,49 @@
         <div class="row justify-content-center g-4">
           <div class="col-lg-5 col-md-6">
             <div class="pricing-card">
-              <h3 class="fw-bold mb-3">Dojo Management</h3>
+              <h3 class="fw-bold mb-3">Dojo Plan</h3>
               <div class="price">${{ dojoPrice }}</div>
               <div class="price-period">{{ period }}</div>
-              <p class="text-muted mt-3">Perfect for individual dojos and small martial arts schools</p>
+              <p class="text-muted mt-3">Perfect for individual dojos</p>
 
               <ul class="feature-list">
-                <li><i class="fas fa-check" aria-hidden="true"></i>Up to 200 students</li>
-                <li><i class="fas fa-check" aria-hidden="true"></i>Class scheduling & booking</li>
-                <li><i class="fas fa-check" aria-hidden="true"></i>Student progress tracking</li>
-                <li><i class="fas fa-check" aria-hidden="true"></i>Automated billing</li>
+                <li><i class="fas fa-check" aria-hidden="true"></i>Up to 100 members</li>
+                <li><i class="fas fa-check" aria-hidden="true"></i>Member records management</li>
+                <li><i class="fas fa-check" aria-hidden="true"></i>Grade tracking</li>
+                <li><i class="fas fa-check" aria-hidden="true"></i>Digital membership cards</li>
                 <li><i class="fas fa-check" aria-hidden="true"></i>Basic reporting</li>
-                <li><i class="fas fa-check" aria-hidden="true"></i>Mobile app access</li>
                 <li><i class="fas fa-check" aria-hidden="true"></i>Email support</li>
               </ul>
 
-              <button class="btn btn-primary w-100" type="button">Choose Dojo Plan</button>
+              <button class="btn btn-primary w-100" type="button">Request Access</button>
             </div>
           </div>
 
           <div class="col-lg-5 col-md-6">
             <div class="pricing-card featured">
-              <h3 class="fw-bold mb-3">Organization & Affiliations</h3>
+              <h3 class="fw-bold mb-3">Organisation Plan</h3>
               <div class="price">${{ orgPrice }}</div>
               <div class="price-period">{{ period }}</div>
-              <p class="text-muted mt-3">Ideal for martial arts organizations and multi-location schools</p>
+              <p class="text-muted mt-3">For associations and national organisations</p>
 
               <ul class="feature-list">
-                <li><i class="fas fa-check" aria-hidden="true"></i>Unlimited students</li>
-                <li><i class="fas fa-check" aria-hidden="true"></i>Multiple location management</li>
-                <li><i class="fas fa-check" aria-hidden="true"></i>Advanced scheduling</li>
-                <li><i class="fas fa-check" aria-hidden="true"></i>Comprehensive analytics</li>
-                <li><i class="fas fa-check" aria-hidden="true"></i>Tournament management</li>
-                <li><i class="fas fa-check" aria-hidden="true"></i>Instructor certification tracking</li>
-                <li><i class="fas fa-check" aria-hidden="true"></i>API access</li>
-                <li><i class="fas fa-check" aria-hidden="true"></i>Priority phone support</li>
+                <li><i class="fas fa-check" aria-hidden="true"></i>Unlimited members</li>
+                <li><i class="fas fa-check" aria-hidden="true"></i>Multiple dojo management</li>
+                <li><i class="fas fa-check" aria-hidden="true"></i>Hierarchical organisation structure</li>
+                <li><i class="fas fa-check" aria-hidden="true"></i>Advanced reporting & analytics</li>
+                <li><i class="fas fa-check" aria-hidden="true"></i>Grade certification tracking</li>
+                <li><i class="fas fa-check" aria-hidden="true"></i>Membership renewals</li>
+                <li><i class="fas fa-check" aria-hidden="true"></i>Priority support</li>
               </ul>
 
-              <button class="btn btn-primary w-100" type="button">Choose Organization Plan</button>
+              <button class="btn btn-primary w-100" type="button">Request Access</button>
             </div>
           </div>
         </div>
 
         <div class="text-center mt-5">
-          <p class="lead text-muted">All plans include a 14-day free trial. No credit card required.</p>
-          <p class="text-muted">Need a custom solution? <a href="#" class="text-decoration-none" style="color: var(--primary-orange);">Contact our sales team</a></p>
+          <p class="lead text-muted">Available by invite only.</p>
+          <p class="text-muted">Interested in joining? <a href="#" class="text-decoration-none" style="color: var(--primary-orange);">Contact us</a></p>
         </div>
       </div>
     </section>

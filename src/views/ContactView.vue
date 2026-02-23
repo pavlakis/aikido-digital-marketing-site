@@ -6,7 +6,7 @@
           <div class="col-lg-8">
             <div class="text-center mb-5">
               <h1 id="contact-heading" class="display-4 fw-bold text-dark mb-3">Get In Touch</h1>
-              <p class="lead text-muted">Have questions? We're here to help you get started with DojoFlow</p>
+              <p class="lead text-muted">Have questions about aikido.digital? We're here to help.</p>
             </div>
 
             <form @submit.prevent="submitForm" class="bg-white p-5 rounded-3 shadow" novalidate>
@@ -78,7 +78,7 @@
               <i class="fas fa-envelope" aria-hidden="true"></i>
             </div>
             <h4 class="fw-bold">Email Us</h4>
-            <p class="text-muted mb-2">info@dojoflow.com</p>
+            <p class="text-muted mb-2">info@aikidodigital.com</p>
             <p class="text-muted">We typically respond within 24 hours</p>
           </div>
           <div class="col-lg-4 text-center">

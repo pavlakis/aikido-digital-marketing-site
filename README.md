@@ -1,6 +1,8 @@
-# DojoFlow Vue Starter
+# aikido.digital Website
 
-This is a minimal Vue 3 + Vite starter scaffold using Bootstrap 4 and vue-router. It includes accessibility and responsive patterns.
+This is the marketing website for aikido.digital - a membership management platform for aikido organisations.
+
+Built with Vue 3 + Vite using Bootstrap 4 and vue-router. Includes accessibility and responsive patterns.
 
 Quick start:
 
@@ -16,15 +18,19 @@ npm run build
 npm run preview
 ```
 
-Accessibility:
-- Includes a "Skip to content" link
-- Focus styles for keyboard users
-- Semantic landmarks and ARIA attributes in navigation
+## Features
 
-Files added:
-- src/
-- index.html
-- vite.config.js
-- package.json
+- Responsive design for all devices
+- Accessibility-first approach with semantic HTML and ARIA attributes
+- "Skip to content" link for keyboard navigation
+- Focus styles for keyboard users
+- Clean, modern UI matching aikido.digital brand
+
+## Project Structure
+
+- `src/` - Vue components and application code
+- `index.html` - Entry HTML file
+- `vite.config.js` - Vite configuration
+- `package.json` - Dependencies and scripts
 
 

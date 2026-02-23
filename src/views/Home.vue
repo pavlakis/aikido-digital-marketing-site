@@ -6,8 +6,8 @@
         <div class="row align-items-center">
           <div class="col-lg-6">
             <div class="hero-content">
-              <h1 class="display-4 fw-bold mb-4">Spend Less Time on Admin. More Time on Aikido.</h1>
-              <p class="lead mb-4">Modernise the way your aikido organisation runs. AikidoDigital makes it easy to manage dojos, members, and associations, all in one secure, cloud-based platform.</p>
+              <h1 class="display-4 fw-bold mb-4">Aikido Membership Management</h1>
+              <p class="lead mb-4">Take control of your organisation's memberships. We provide the tools, so that you can focus on the art.</p>
             </div>
           </div>
           <div class="col-lg-6">
@@ -23,8 +23,8 @@
     <section class="trusted-by-section" role="region" aria-labelledby="trusted-heading">
       <div class="container">
         <div class="text-center mb-5">
-          <h2 id="trusted-heading" class="display-5 fw-bold mb-4 trusted-section-heading">Trusted by Leading Aikido Dojos and Associations</h2>
-          <p class="lead trusted-section-lead">Join these dojos, associations, organisations and governing bodies, that have moved to digital-first, paperless memberships</p>
+          <h2 id="trusted-heading" class="display-5 fw-bold mb-4 trusted-section-heading">Trusted by Leading Aikido Organisations</h2>
+          <p class="lead trusted-section-lead">Join these dojos and associations managing their memberships with aikido.digital</p>
         </div>
 
         <div class="row g-4 align-items-center justify-content-center">

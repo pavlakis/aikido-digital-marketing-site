@@ -3,45 +3,45 @@
     <section class="features-section" role="region" aria-labelledby="all-features-heading">
       <div class="container">
         <div class="text-center mb-5">
-          <h1 id="all-features-heading" class="display-4 fw-bold text-dark mb-3">Comprehensive Features</h1>
-          <p class="lead text-muted">Everything you need to run a successful martial arts school</p>
+          <h1 id="all-features-heading" class="display-4 fw-bold text-dark mb-3">Membership Management Features</h1>
+          <p class="lead text-muted">Everything you need to manage your aikido organisation's memberships</p>
         </div>
 
         <div class="row g-4 mb-5">
           <div class="col-lg-4 col-md-6">
             <div class="feature-card">
               <div class="feature-icon">
-                <i class="fas fa-user-graduate" aria-hidden="true"></i>
+                <i class="fas fa-users" aria-hidden="true"></i>
               </div>
-              <h4 class="fw-bold mb-3">Student Progress Tracking</h4>
-              <p>Monitor belt progressions, attendance records, and skill development with detailed tracking systems.</p>
+              <h4 class="fw-bold mb-3">Member Management</h4>
+              <p>Keep track of your members, their grades, and membership status all in one place.</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="feature-card">
               <div class="feature-icon">
-                <i class="fas fa-credit-card" aria-hidden="true"></i>
+                <i class="fas fa-sitemap" aria-hidden="true"></i>
               </div>
-              <h4 class="fw-bold mb-3">Automated Billing</h4>
-              <p>Handle membership fees, class payments, and equipment sales with automated billing and payment processing.</p>
+              <h4 class="fw-bold mb-3">Organisation Structure</h4>
+              <p>Manage multiple dojos, regional associations, and national organisations seamlessly.</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="feature-card">
               <div class="feature-icon">
-                <i class="fas fa-mobile-alt" aria-hidden="true"></i>
+                <i class="fas fa-shield-alt" aria-hidden="true"></i>
               </div>
-              <h4 class="fw-bold mb-3">Mobile App</h4>
-              <p>Students and parents can book classes, view schedules, and track progress from anywhere.</p>
+              <h4 class="fw-bold mb-3">Secure & Private</h4>
+              <p>Your members' data is protected with industry-standard security and privacy practices.</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="feature-card">
               <div class="feature-icon">
-                <i class="fas fa-bell" aria-hidden="true"></i>
+                <i class="fas fa-file-alt" aria-hidden="true"></i>
               </div>
-              <h4 class="fw-bold mb-3">Communication Tools</h4>
-              <p>Send automated reminders, announcements, and updates to students and parents via SMS and email.</p>
+              <h4 class="fw-bold mb-3">Digital Records</h4>
+              <p>Say goodbye to paperwork. All membership records are digitized and easily accessible.</p>
             </div>
           </div>
         </div>
