@@ -24,7 +24,7 @@
       <div class="container">
         <div class="text-center mb-5">
           <h2 id="trusted-heading" class="display-5 fw-bold mb-4 trusted-section-heading">Trusted by Leading Aikido Organisations</h2>
-          <p class="lead trusted-section-lead">Join these dojos and associations managing their memberships with Aikido Digital</p>
+          <p class="lead trusted-section-lead">Join these dojos and associations managing their memberships with AikidoDigital</p>
         </div>
 
         <div class="row g-4 align-items-center justify-content-center">
@@ -86,16 +86,35 @@
 
 <script>
 export default {
-  name: 'HomeView',
-  methods: {
-    watchDemo() {
-      alert('Demo video would play here!')
-    }
-  }
+  name: 'HomeView'
 }
 </script>
 
 <style scoped>
+.hero-icon {
+  font-size: 15rem;
+  opacity: 0.3;
+}
+
+@media (max-width: 992px) {
+  .hero-icon {
+    font-size: 10rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-icon {
+    font-size: 8rem;
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-icon {
+    font-size: 6rem;
+  }
+}
+
 /* Logo sizing to match icon-based logos */
 .logo-image {
   width: 6rem; /* increased for prominence */

@@ -10,12 +10,9 @@
         <div class="row">
           <div class="col-lg-6 col-md-6 mb-4">
             <h5>AikidoDigital</h5>
-            <p>Streamline your aikido dojo management with our comprehensive platform designed for aikido dojos and associations.</p>
+            <p>Simple membership management for aikido organisations. We provide the tools, so that you can focus on the art.</p>
             <div class="social-icons">
-              <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
-              <a href="#" aria-label="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-              <a href="#" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+              <a href="https://twitter.com/aikidodigital" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
             </div>
           </div>
 
@@ -23,7 +20,7 @@
           <div class="col-lg-6 col-md-6 mb-4 text-md-end">
             <h5>Connect</h5>
             <p><i class="fas fa-envelope me-2" aria-hidden="true"></i><a href="mailto:info@aikidodigital.com">info@aikidodigital.com</a></p>
-            <p><i class="fab fa-twitter me-2" aria-hidden="true"></i><a href="https://twitter.com/aikidodigital" target="_blank">@AikidoDigital</a></p>
+            <p><i class="fab fa-twitter me-2" aria-hidden="true"></i><a href="https://twitter.com/aikidodigital" target="_blank" rel="noopener noreferrer">@aikidodigital</a></p>
           </div>
         </div>
         <hr class="my-4" style="border-color: #444;">
@@ -49,20 +46,32 @@ export default {
 </script>
 
 <style>
-.skip-link:focus,
-.skip-link:active {
-  position: static;
-  width: auto;
-  height: auto;
+/* Skip to main content link - hidden by default, visible on focus */
+.skip-link {
+  position: absolute;
+  top: -40px;
   left: 0;
-  top: 0;
   background: #000;
   color: #fff;
   padding: 8px 16px;
-  z-index: 1000;
+  text-decoration: none;
+  z-index: 10000;
+  font-weight: 600;
 }
 
+.skip-link:focus {
+  top: 0;
+  outline: 3px solid #f27d2a;
+  outline-offset: 2px;
+}
+
+/* Global focus styles for accessibility */
 a:focus {
+  outline: 3px solid #f27d2a;
+  outline-offset: 2px;
+}
+
+button:focus {
   outline: 3px solid #f27d2a;
   outline-offset: 2px;
 }

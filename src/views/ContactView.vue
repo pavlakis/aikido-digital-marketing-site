@@ -5,7 +5,7 @@
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center">
             <h1 id="contact-heading" class="display-4 fw-bold text-dark mb-3">Get In Touch</h1>
-            <p class="lead text-muted mb-5">Interested in Aikido Digital? We'd love to hear from you.</p>
+            <p class="lead text-muted mb-5">Interested in AikidoDigital? We'd love to hear from you.</p>
 
             <div class="row g-4 justify-content-center">
               <div class="col-lg-6">
@@ -47,6 +47,8 @@ export default {
 </script>
 
 <style scoped>
-
+.page-content {
+  padding-top: 100px;
+}
 </style>
 

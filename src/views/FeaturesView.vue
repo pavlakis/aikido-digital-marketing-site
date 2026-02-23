@@ -46,5 +46,7 @@ export default { name: 'FeaturesView' }
 </script>
 
 <style scoped>
-
+.page-content {
+  padding-top: 100px;
+}
 </style>

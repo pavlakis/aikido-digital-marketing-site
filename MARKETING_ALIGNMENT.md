@@ -85,13 +85,19 @@ This document summarizes the marketing message changes made to align with https:
 4. **Exclusivity:** "Available by invite only" positioning
 5. **Focus on the Art:** "We provide the tools, so that you can focus on the art" emphasizes that admin is secondary to aikido practice
 
-## Consistency with aikido.digital Website
+## Consistency with AikidoDigital Brand
 
 The marketing messages now align with:
 - Main heading: "Aikido Membership Management"
 - Subheading: "Take control of your organisation's memberships"
 - Availability: "Available by Invite Only"
-- Navigation: Home, Online Membership (Features), Login (Contact)
+- Navigation: Home, Features (Online Membership), Contact (Login)
 - Twitter presence: @aikidodigital
+- Contact: info@aikidodigital.com
 - Simple, focused value proposition without overwhelming feature lists
+
+**Brand Clarity:**
+- **Marketing Website:** aikidodigital.com (this repository)
+- **Product/Members Portal:** aikido.digital (separate, members-only)
+- **Brand Name:** AikidoDigital
 

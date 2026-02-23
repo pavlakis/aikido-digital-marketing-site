@@ -1,9 +1,9 @@
 <template>
   <div>
     <div class="container py-5">
-      <h1>About Aikido Digital</h1>
+      <h1>About AikidoDigital</h1>
       <p class="lead">Simple, effective membership management for aikido organisations.</p>
-      <p>We provide the tools, so that you can focus on the art. Let Aikido Digital help you manage the admin side of your dojo and your organisation.</p>
+      <p>We provide the tools, so that you can focus on the art. Let AikidoDigital help you manage the admin side of your dojo and your organisation.</p>
     </div>
   </div>
 </template>
