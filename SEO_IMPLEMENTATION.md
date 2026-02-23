@@ -29,6 +29,8 @@ XML sitemap listing all important pages with their priority and update frequency
 - Contact (priority: 0.8, monthly updates)
 - Privacy Policy (priority: 0.3, yearly updates)
 
+**Note:** Terms of Service is not included as contractual terms are handled directly with each organisation through individual contracts.
+
 ### 3. llms.txt
 **Location:** `/llms.txt`
 
