@@ -22,8 +22,8 @@
           <!-- Contact info moved to the right column and right-aligned on md+ -->
           <div class="col-lg-6 col-md-6 mb-4 text-md-end">
             <h5>Connect</h5>
-            <p><i class="fas fa-envelope me-2" aria-hidden="true"></i><a href="mailto:info@aikidodigital.com">info@aikido.digital</a></p>
-            <p><i class="fab fa-twitter me-2" aria-hidden="true"></i><a href="https://twitter.com/aikidodigital" target="_blank">@aikidodigital</a></p>
+            <p><i class="fas fa-envelope me-2" aria-hidden="true"></i><a href="mailto:info@aikidodigital.com">info@aikidodigital.com</a></p>
+            <p><i class="fab fa-twitter me-2" aria-hidden="true"></i><a href="https://twitter.com/aikidodigital" target="_blank">@AikidoDigital</a></p>
           </div>
         </div>
         <hr class="my-4" style="border-color: #444;">

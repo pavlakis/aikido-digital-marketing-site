@@ -6,7 +6,7 @@
           <div class="col-lg-8">
             <div class="text-center mb-5">
               <h1 id="contact-heading" class="display-4 fw-bold text-dark mb-3">Get In Touch</h1>
-              <p class="lead text-muted">Have questions about aikido.digital? We're here to help.</p>
+              <p class="lead text-muted">Have questions about Aikido Digital? We're here to help.</p>
             </div>
 
             <form @submit.prevent="submitForm" class="bg-white p-5 rounded-3 shadow" novalidate>

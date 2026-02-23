@@ -24,7 +24,7 @@
       <div class="container">
         <div class="text-center mb-5">
           <h2 id="trusted-heading" class="display-5 fw-bold mb-4 trusted-section-heading">Trusted by Leading Aikido Organisations</h2>
-          <p class="lead trusted-section-lead">Join these dojos and associations managing their memberships with aikido.digital</p>
+          <p class="lead trusted-section-lead">Join these dojos and associations managing their memberships with Aikido Digital</p>
         </div>
 
         <div class="row g-4 align-items-center justify-content-center">
