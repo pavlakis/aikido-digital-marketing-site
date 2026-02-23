@@ -55,6 +55,12 @@ This document summarizes the marketing message changes made to align with https:
 
 ### 5. Contact Page (`src/views/ContactView.vue`)
 - Changed reference from "DojoFlow" to "aikido.digital"
+- **Removed:** "Call Us" contact method (phone support)
+- **Removed:** "Live Chat" contact method
+- **Removed:** Contact form (all fields and submission functionality)
+- **Simplified:** Two-card layout with Email and Twitter contact only
+- Direct communication approach: info@aikido.digital and @aikidodigital on Twitter
+- Aligns with professional, asynchronous communication model and invite-only positioning
 
 ### 6. Footer (`src/App.vue`)
 - **Brand:** Changed from "AikidoDigital" to "aikido.digital"
