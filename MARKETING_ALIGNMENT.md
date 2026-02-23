@@ -35,11 +35,11 @@ This document summarizes the marketing message changes made to align with https:
 
 ### 3. Features Page (`src/views/FeaturesView.vue`)
 - **Heading:** Changed from "Comprehensive Features" to "Membership Management Features"
-- **Features Updated:**
-  - Student Progress Tracking → Member Management
-  - Automated Billing → Organisation Structure
-  - Mobile App → Secure & Private
-  - Communication Tools → Digital Records
+- **Features Updated (now 3 features):**
+  - Member Management (formerly Student Progress Tracking)
+  - Organisation Structure (formerly Automated Billing)
+  - Digital Records (formerly Communication Tools)
+  - ~~Secure & Private~~ (removed February 23, 2026)
 - Focus shifted from class scheduling and billing to membership records and organisation management
 
 ### 4. Pricing Page (`src/views/PricingView.vue`)

@@ -29,15 +29,6 @@
           <div class="col-lg-4 col-md-6">
             <div class="feature-card">
               <div class="feature-icon">
-                <i class="fas fa-shield-alt" aria-hidden="true"></i>
-              </div>
-              <h4 class="fw-bold mb-3">Secure & Private</h4>
-              <p>Your members' data is protected with industry-standard security and privacy practices.</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="feature-card">
-              <div class="feature-icon">
                 <i class="fas fa-file-alt" aria-hidden="true"></i>
               </div>
               <h4 class="fw-bold mb-3">Digital Records</h4>

@@ -43,17 +43,12 @@
 
     <section class="mb-4" aria-labelledby="security">
       <h2 id="security" class="h5">Security</h2>
-      <p>We implement reasonable technical and organizational measures to protect personal information. No system is fully secure, so we cannot guarantee absolute security.</p>
+      <p>We implement reasonable technical and organisational measures to protect personal information. No system is fully secure, so we cannot guarantee absolute security.</p>
     </section>
 
     <section class="mb-4" aria-labelledby="retention">
       <h2 id="retention" class="h5">Data retention</h2>
       <p>We retain personal information as long as necessary for the purposes described in this policy, or as required by law.</p>
-    </section>
-
-    <section class="mb-4" aria-labelledby="children">
-      <h2 id="children" class="h5">Children</h2>
-      <p>Our services are not directed to children under 13. We do not knowingly collect personal information from children under 13.</p>
     </section>
 
     <section class="mb-4" aria-labelledby="changes">
@@ -63,7 +58,7 @@
 
     <section aria-labelledby="contact-us">
       <h2 id="contact-us" class="h5">Contact us</h2>
-      <p>If you have questions about this policy or our data practices, please contact us at <a href="mailto:info@dojoflow.com">info@dojoflow.com</a>.</p>
+      <p>If you have questions about this policy or our data practices, please contact us at <a href="mailto:info@aikidodigital.com">info@aikidodigital.com</a>.</p>
     </section>
   </div>
 </template>
