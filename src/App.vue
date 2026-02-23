@@ -33,7 +33,7 @@
             <p class="mb-0">&copy; 2026 Aikido Digital Limited. All rights reserved.</p>
           </div>
           <div class="col-md-6 text-md-end">
-            <a href="#" class="footer-link me-3">Privacy Policy</a>
+            <router-link to="/privacy-policy" class="footer-link me-3">Privacy Policy</router-link>
             <a href="#" class="footer-link">Terms of Service</a>
           </div>
         </div>
