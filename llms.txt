@@ -1,0 +1,64 @@
+# AikidoDigital - Aikido Membership Management Platform
+
+> Simple membership management for aikido organisations. We provide the tools, so that you can focus on the art.
+
+## About AikidoDigital
+
+AikidoDigital is a specialized membership management platform designed specifically for aikido dojos, clubs, and organisations. Our platform helps aikido instructors and administrators manage their members efficiently, allowing them to focus on teaching and practicing the art of aikido.
+
+**Website:** https://aikidodigital.com
+**Member Portal:** https://aikido.digital
+
+## What We Do
+
+AikidoDigital provides comprehensive membership management solutions for aikido organisations of all sizes. Whether you're running a single dojo or managing a national aikido association, our platform streamlines administrative tasks and member management.
+
+### Key Benefits
+
+- Simplified membership administration for aikido organisations
+- Accessible platform design following WCAG standards
+- Mobile-responsive interface for on-the-go management
+- Trusted by leading aikido organisations worldwide
+- Focus on simplicity and ease of use
+
+## Trusted by Leading Aikido Organisations
+
+AikidoDigital is proud to serve prominent aikido organisations including:
+
+- **Joint Aikikai Council** - National governing body JAC
+- **British Birankai** - British Birankai aikido association
+- **Aikido Bedford** - Aikido Bedford club
+- **Leicester Aikikai** - Leicester Aikikai aikido dojo
+- **United Kingdom Aikikai** - UKA national aikido association
+
+These organisations trust AikidoDigital to manage their memberships and administrative needs.
+
+## Pages & Resources
+
+Our website provides information about:
+
+- **Home** - Overview of AikidoDigital's membership management platform
+- **Features** - Detailed platform capabilities and benefits
+- **About** - Our mission and the team behind AikidoDigital
+- **Contact** - Get in touch with our team
+- **Privacy Policy** - Our commitment to data protection and privacy
+
+## Contact AikidoDigital
+
+We'd love to hear from aikido organisations interested in simplifying their membership management.
+
+**Email:** info@aikidodigital.com
+**Twitter/X:** [@aikidodigital](https://twitter.com/aikidodigital)
+
+For general inquiries, partnership opportunities, or to learn more about how AikidoDigital can help your aikido organisation, association or dojo, please reach out via email or connect with us on Twitter.
+
+## Related Services
+
+**AikidoDigital Marketing Website** (aikidodigital.com) - Public information about our platform, features, and services for prospective customers and the aikido community.
+
+**AikidoDigital Member Portal** (aikido.digital) - Secure members-only platform access for registered organisations and their members.
+
+---
+
+**Copyright © 2026 Aikido Digital Limited. All rights reserved.**
+
