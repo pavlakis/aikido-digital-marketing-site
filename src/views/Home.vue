@@ -29,7 +29,7 @@
 
         <div class="row g-4 align-items-center justify-content-center">
 
-          <div class="col-lg-2 col-md-4 col-6 text-center">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-6 text-center">
             <div class="logo-container">
               <div>
                 <img src="/logos/joint-aikikai-council.jpg" alt="Joint Aikikai Council Logo" class="logo-image" />
@@ -38,7 +38,7 @@
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-4 col-6 text-center">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-6 text-center">
             <div class="logo-container">
               <div>
                 <img src="/logos/british-birankai.jpeg" alt="British Birankai Logo" class="logo-image" />
@@ -47,7 +47,7 @@
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-4 col-6 text-center">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-6 text-center">
             <div class="logo-container">
               <div>
                 <img src="/logos/united-kingdom-aikikai.png" alt="United Kingdom Aikikai Logo" class="logo-image" />
@@ -56,7 +56,7 @@
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-4 col-6 text-center">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-6 text-center">
             <div class="logo-container">
               <div>
                 <img src="/logos/aikido-bedford.jpg" alt="Aikido Bedford Logo" class="logo-image" />
@@ -65,7 +65,7 @@
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-4 col-6 text-center">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-6 text-center">
             <div class="logo-container">
               <div>
                 <img src="/logos/leicester-aikikai.png" alt="Leicester Aikikai Logo" class="logo-image" />
@@ -74,7 +74,7 @@
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-4 col-6 text-center">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-6 text-center">
             <div class="logo-container">
               <div>
                 <img src="/logos/british-aikikai.png" alt="British Aikikai Logo" class="logo-image" />
@@ -146,10 +146,10 @@ export default {
 
 @media (min-width: 1200px) {
   .logo-image {
-    width: 10rem;
-    height: 10rem;
-    min-height: 9.5rem;
-    max-height: 10rem;
+    width: 12rem;
+    height: 12rem;
+    min-height: 11.5rem;
+    max-height: 12rem;
   }
 }
 
