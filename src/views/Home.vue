@@ -74,7 +74,14 @@
             </div>
           </div>
 
-
+          <div class="col-lg-2 col-md-4 col-6 text-center">
+            <div class="logo-container">
+              <div>
+                <img src="/logos/british-aikikai.png" alt="British Aikikai Logo" class="logo-image" />
+                <!--                <div class="logo-name">British Aikikai</div>-->
+              </div>
+            </div>
+          </div>
 
         </div>
 
