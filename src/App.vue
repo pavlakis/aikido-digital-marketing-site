@@ -30,6 +30,8 @@
           </div>
           <div class="col-md-6 text-md-end">
             <router-link to="/privacy-policy" class="footer-link">Privacy Policy</router-link>
+            <span class="footer-sep" aria-hidden="true"> · </span>
+            <router-link to="/sub-processors" class="footer-link">Sub-Processors</router-link>
           </div>
         </div>
       </div>
