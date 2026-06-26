@@ -39,6 +39,7 @@
         <li>Your organisation's own privacy policy and data protection practices.</li>
         <li>UK GDPR and applicable data protection laws as outlined in the contract.</li>
       </ul>
+      <p>For a full list of third-party providers that process personal data on our behalf, see our <router-link to="/sub-processors">Sub-Processors page</router-link>.</p>
     </section>
 
     <section class="mb-4" aria-labelledby="changes">
