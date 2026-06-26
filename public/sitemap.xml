@@ -44,6 +44,14 @@
     <priority>0.3</priority>
   </url>
 
+  <!-- Sub-Processors -->
+  <url>
+    <loc>https://aikidodigital.com/sub-processors</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
 
 </urlset>
 
