@@ -109,16 +109,16 @@
               <li>Relevant medical conditions or ailments.</li>
               <li>Description of existing injury or illness.</li>
             </ul>
-            <p class="mb-0">This data is not required and is only recorded where the organisation determines it is necessary. The lawful basis for processing this data is determined by the organisation acting as Data Controller. The organisation is responsible for ensuring an appropriate Article 9 condition is met, such as explicit consent of the data subject or, in the case of juniors, the vital interests of the individual.</p>
+            <p class="mb-0">This data is not required and is only recorded where the organisation determines it is necessary. The lawful basis for processing this data is determined by the organisation acting as Data Controller. The organisation is responsible for ensuring an appropriate Article 9 condition is met, such as explicit consent of the data subject or, in the case of juniors, the vital interests of the individual. We only process this data under documented written instruction from the organisation, who confirms they have an appropriate Article 9 condition in place.</p>
           </div>
 
           <h3 class="h6 mt-4"><span class="scope-badge scope-platform">Platform</span> Security and Technical Data</h3>
-          <p>The following data is recorded automatically by the platform for security, audit, and fraud-prevention purposes, and is linked to authenticated user accounts:</p>
+          <p>Security and audit data is recorded automatically by the platform for the purpose of platform security and integrity, and is linked to authenticated user accounts. This includes:</p>
           <ul>
-            <li><strong>IP addresses</strong> — captured on security-sensitive actions, including governing body access requests, approvals, revocations, and data exports.</li>
-            <li><strong>Browser user-agent string</strong> — captured alongside IP addresses for the same security events.</li>
-            <li><strong>Device type</strong> (for example: desktop, iOS, or Android) — recorded on each login to support usage monitoring and account security.</li>
-            <li><strong>Authenticated page-access history</strong> — the pages visited and timestamps while logged in, used for platform usage monitoring and security auditing.</li>
+            <li><strong>IP addresses</strong> — recorded for security and audit purposes.</li>
+            <li><strong>Browser user-agent string</strong> — recorded for security and audit purposes.</li>
+            <li><strong>Device type</strong> — recorded to support usage monitoring and account security.</li>
+            <li><strong>Authenticated page-access history</strong> — pages visited and timestamps while logged in, used for platform usage monitoring and security auditing.</li>
           </ul>
           <p>This data is processed under the legitimate interests of Aikido Digital Limited to maintain the security and integrity of the platform. It is not shared with organisations or used for any other purpose.</p>
         </section>
@@ -184,7 +184,7 @@
         <section class="mb-4" aria-labelledby="data-retention">
           <h2 id="data-retention" class="h5 mt-4">9. Data Retention</h2>
           <p>Data retention is determined by the organisation acting as Data Controller. Some records may be required to be retained for a number of years in accordance with the organisation's own policies, legal obligations, or governing body requirements.</p>
-          <p>Following termination of the client relationship, we retain platform data for up to 90 days, after which it is securely deleted or anonymised and backup data is overwritten in accordance with our retention policies.</p>
+          <p>Following termination of the client relationship, we retain platform data for a limited period, after which it is securely deleted or anonymised in accordance with our retention policies. Specific retention periods following termination are set out in the Data Processing Agreement.</p>
           <p>Security and technical data, including IP addresses, device type records, and page-access history, is retained for the duration of the client relationship and deleted on the same schedule as other platform data.</p>
         </section>
 
