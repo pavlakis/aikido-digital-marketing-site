@@ -1,66 +1,132 @@
-# AikidoDigital - Aikido Membership Management Platform
+# AikidoDigital - Aikido Organisation Management Platform
 
-> Simple membership management for aikido organisations. We provide the tools, so that you can focus on the art.
+> One platform for managing your entire Aikido organisation — from individual members and dojos to national governing bodies.
 
 ## About AikidoDigital
 
-AikidoDigital is a specialized membership management platform designed specifically for aikido dojos, clubs, and organisations. Our platform helps aikido instructors and administrators manage their members efficiently, allowing them to focus on teaching and practicing the art of aikido.
+AikidoDigital is a specialist web-based platform built specifically for Aikido organisations, associations, governing bodies and their affiliated dojos. It is not generic membership-management software adapted for Aikido — it is designed around the way Aikido organisations are actually structured: individual members belong to dojos, dojos belong to regional or national associations, and associations report up to a governing body.
 
 **Website:** https://aikidodigital.com
 **Member Portal:** https://aikido.digital
 
-## What We Do
+## Who AikidoDigital Is For
 
-AikidoDigital provides comprehensive membership management solutions for aikido organisations of all sizes. Whether you're running a single dojo or managing a national aikido association, our platform streamlines administrative tasks and member management.
+AikidoDigital is built primarily for decision-makers and administrators within:
 
-### Key Benefits
+- National and regional Aikido organisations
+- Aikido associations and governing bodies
+- Organisation registrars and membership administrators
+- Committees and organisation leadership
+- Affiliated dojos and instructors
 
-- Simplified membership administration for aikido organisations
-- Accessible platform design following WCAG standards
-- Mobile-responsive interface for on-the-go management
-- Trusted by leading aikido organisations worldwide
-- Focus on simplicity and ease of use
+Individual members use the platform day to day, but organisations and their administrators are the primary audience.
+
+## What AikidoDigital Manages
+
+### Membership Management
+- Online membership applications and renewals
+- Member profiles and membership status
+- Membership expiry tracking and automated renewal reminders
+- Membership certificates
+- Reporting
+
+### Organisation and Dojo Management
+- Support for organisations containing multiple affiliated dojos
+- Dojo profiles, training venues and class schedules
+- Instructor appointments
+- Hierarchical organisation structures (dojo, region, national body)
+
+### Grades and Instructor Records
+- Complete grading history covering Kyu and Dan grades
+- Teaching titles and instructor records
+- Grade certificates
+- Instructor appointments by dojo
+
+### Attendance
+- Class attendance registers
+- Mobile-friendly attendance management designed for fast, practical recording
+
+### Insurance and Documentation
+- Membership documentation
+- Instructor documentation
+- Venue insurance documentation
+- Digitally generated certificates and records
+
+### Governance and Oversight
+- Reporting across affiliated organisations
+- Privacy-conscious, aggregated information by default
+- Controlled workflows for accessing more detailed information
+- Organisation registrars retain appropriate control of member data
+
+### Roles and Permissions
+AikidoDigital supports different responsibilities across an organisation, including registrars, organisation administrators, grade administrators, technical administrators, chairs, instructors and governing-body roles. Users only have access to information appropriate to their responsibilities.
+
+### Security and Auditability
+- Two-factor authentication
+- Account protection
+- Administrative audit logs
+- Controls appropriate for organisations handling member and junior/child data
+
+### Reporting and Insights
+- Membership reports and grade reports
+- Organisation statistics
+- Committee and AGM reporting
+- Insurance and compliance reporting
+
+### Marketplace
+AikidoDigital has a modular Marketplace through which organisations can activate additional functionality as their requirements grow.
+
+**Coming soon:** Event-management functionality is currently in development and is not yet available.
+
+## Key Differentiators
+
+1. Built specifically for Aikido, not adapted from generic club-management software
+2. Supports the organisational hierarchy of Aikido associations — members, dojos, regions, national bodies and governing bodies
+3. Handles far more than membership records: grades, instructor appointments, attendance, insurance documentation and governance
+4. Role-based access reflects real administrative responsibilities within an Aikido organisation
+5. Reduces repetitive registrar and committee administration
+6. Provides centralised, reliable digital records in place of spreadsheets and paperwork
+7. Supports governance and reporting requirements for committees, AGMs and governing bodies
+8. Designed with appropriate privacy and security controls, including two-factor authentication and audit logs
+9. Can expand through additional Marketplace functionality as an organisation's needs grow
 
 ## Trusted by Leading Aikido Organisations
 
-AikidoDigital is proud to serve prominent aikido organisations including:
+AikidoDigital is used by Aikido organisations across the UK, including:
 
-- **Joint Aikikai Council** - National governing body JAC
-- **British Birankai** - British Birankai aikido association
-- **Aikido Bedford** - Aikido Bedford club
-- **Leicester Aikikai** - Leicester Aikikai aikido dojo
-- **United Kingdom Aikikai** - UKA national aikido association
-
-These organisations trust AikidoDigital to manage their memberships and administrative needs.
+- **Joint Aikikai Council** - National governing body (JAC)
+- **British Birankai** - British Birankai Aikido association
+- **British Aikikai** - British Aikikai Aikido association
+- **United Kingdom Aikikai** - UKA national Aikido association
+- **Aikido Bedford** - Affiliated dojo
+- **Leicester Aikikai** - Affiliated dojo
 
 ## Pages & Resources
 
-Our website provides information about:
-
-- **Home** - Overview of AikidoDigital's membership management platform
-- **Features** - Detailed platform capabilities and benefits
-- **About** - Our mission and the team behind AikidoDigital
-- **Contact** - Get in touch with our team
+- **Home** - Overview of AikidoDigital as a platform for managing an entire Aikido organisation
+- **Features** - Detailed platform capabilities across members, dojos, grades, attendance, documentation, roles, security and reporting
+- **About** - AikidoDigital's approach to supporting Aikido organisations
+- **Contact** - Book a demo or get in touch with the AikidoDigital team
 - **Privacy Policy** - Our commitment to data protection and privacy
 
 ## Contact AikidoDigital
 
-We'd love to hear from aikido organisations interested in simplifying their membership management.
+We'd love to hear from Aikido organisations, associations and governing bodies interested in reducing administration and centralising their records.
 
 **Email:** info@aikidodigital.com
 **Twitter/X:** [@aikidodigital](https://twitter.com/aikidodigital)
 
-For general inquiries, partnership opportunities, or to learn more about how AikidoDigital can help your aikido organisation, association or dojo, please reach out via email or connect with us on Twitter.
+For general enquiries or to book a demonstration of how AikidoDigital can support your organisation's dojos, administrators and governing body, please reach out via email or connect with us on Twitter.
 
 ## Related Services
 
-**AikidoDigital Marketing Website** (aikidodigital.com) - Public information about our platform, features, and services for prospective customers and the aikido community.
+**AikidoDigital Marketing Website** (aikidodigital.com) - Public information about the platform for prospective organisations and the wider Aikido community.
 
-**AikidoDigital Member Portal** (aikido.digital) - Secure members-only platform access for registered organisations and their members.
+**AikidoDigital Member Portal** (aikido.digital) - Secure platform access for registered organisations, their administrators and their members.
 
 ## Keywords & Topics
 
-aikido membership management, aikido dojo software, aikido club management, aikido association management, martial arts membership software, aikido student database, dojo administration software, aikido organisation tools, UK aikido software, aikido membership platform, sensei management tools, aikido grading system, aikido club database, martial arts school software, aikido federation management, aikido membership tracking, dojo member management, aikido administrative tools, aikido organisation software, traditional martial arts management
+aikido organisation management, aikido association software, aikido governing body software, dojo management software, aikido membership records, aikido grading records, aikido organisation administration, aikido instructor records, aikido attendance registers, aikido insurance documentation, aikido committee reporting, aikido registrar tools, UK aikido software, aikido membership platform
 
 ## Service Areas
 
@@ -71,4 +137,6 @@ United Kingdom, England, Scotland, Wales, Northern Ireland, London aikido, Birmi
 **Copyright © 2026 Aikido Digital Limited. All rights reserved.**
 
 **Website:** https://aikidodigital.com | **Email:** info@aikidodigital.com | **Twitter:** @aikidodigital
+
+
 
