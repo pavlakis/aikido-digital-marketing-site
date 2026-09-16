@@ -10,7 +10,7 @@
         <div class="row">
           <div class="col-lg-6 col-md-6 mb-4">
             <h5>AikidoDigital</h5>
-            <p>Simple membership management for aikido organisations. We provide the tools, so that you can focus on the art.</p>
+            <p>One platform for managing your entire Aikido organisation — from individual members and dojos to national governing bodies.</p>
             <div class="social-icons">
               <a href="https://twitter.com/aikidodigital" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
             </div>
