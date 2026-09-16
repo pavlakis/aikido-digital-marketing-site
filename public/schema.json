@@ -3,14 +3,14 @@
   "@type": "SoftwareApplication",
   "name": "AikidoDigital",
   "applicationCategory": "BusinessApplication",
-  "applicationSubCategory": "Membership Management Software",
+  "applicationSubCategory": "Aikido Organisation Management Platform",
   "operatingSystem": "Web Browser",
   "offers": {
     "@type": "Offer",
     "price": "0",
     "priceCurrency": "GBP"
   },
-  "description": "Simple membership management software for aikido dojos, clubs, and organisations. AikidoDigital provides the tools, so that you can focus on the art.",
+  "description": "AikidoDigital is a specialist platform built for Aikido organisations, associations and governing bodies. It manages members, dojos, grades, instructor records, attendance, documentation, renewals and reporting across an organisation's full hierarchy — from individual members and dojos to national governing bodies.",
   "url": "https://aikidodigital.com",
   "publisher": {
     "@type": "Organization",
@@ -33,8 +33,22 @@
   },
   "audience": {
     "@type": "Audience",
-    "audienceType": "Aikido Dojos, Aikido Clubs, Aikido Organisations, Martial Arts Schools"
+    "audienceType": "Aikido organisations, associations and governing bodies, organisation registrars, membership administrators, committees, affiliated dojos and instructors"
   },
-  "keywords": "aikido membership management, aikido dojo software, aikido club management, martial arts membership software, dojo administration, aikido organisation tools"
+  "featureList": [
+    "Membership applications, renewals and expiry tracking",
+    "Automated renewal reminders",
+    "Dojo, venue and class schedule management",
+    "Hierarchical organisation structures (dojo, region, national body)",
+    "Kyu and Dan grading history and certificates",
+    "Instructor appointments and teaching titles",
+    "Class attendance registers",
+    "Membership, instructor and venue insurance documentation",
+    "Role-based access for registrars, administrators and committees",
+    "Two-factor authentication and administrative audit logs",
+    "Membership, grade and organisation reporting",
+    "Modular Marketplace for additional functionality"
+  ],
+  "keywords": "aikido organisation management, aikido association software, aikido governing body software, dojo management software, aikido membership records, aikido grading records"
 }
 
