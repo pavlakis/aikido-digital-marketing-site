@@ -249,17 +249,8 @@
 </template>
 
 <script>
-export default {
-  name: 'PrivacyPolicy',
-  mounted() {
-    document.title = 'Privacy Policy - AikidoDigital';
-
-    let metaDescription = document.querySelector('meta[name="description"]');
-    if (metaDescription) {
-      metaDescription.setAttribute('content', 'Privacy Policy for Aikido Digital Limited. Covers data handling for the aikidodigital.com marketing website and the aikido.digital membership management platform.');
-    }
-  }
-}
+// Route metadata is managed centrally in src/content/pages.mjs.
+export default { name: 'PrivacyPolicy' }
 </script>
 
 <style scoped>

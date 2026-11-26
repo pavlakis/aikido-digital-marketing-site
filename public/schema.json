@@ -5,12 +5,7 @@
   "applicationCategory": "BusinessApplication",
   "applicationSubCategory": "Aikido Organisation Management Platform",
   "operatingSystem": "Web Browser",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "GBP"
-  },
-  "description": "AikidoDigital is a specialist platform built for Aikido organisations, associations and governing bodies. It manages members, dojos, grades, instructor records, attendance, documentation, renewals and reporting across an organisation's full hierarchy — from individual members and dojos to national governing bodies.",
+  "description": "AikidoDigital is a specialist platform built for Aikido organisations, associations and governing bodies. It manages members, dojos, grades, instructor records, attendance, documentation, renewals and reporting across an organisation's full hierarchy \u2014 from individual members and dojos to national governing bodies.",
   "url": "https://aikidodigital.com",
   "publisher": {
     "@type": "Organization",
@@ -51,4 +46,3 @@
   ],
   "keywords": "aikido organisation management, aikido association software, aikido governing body software, dojo management software, aikido membership records, aikido grading records"
 }
-

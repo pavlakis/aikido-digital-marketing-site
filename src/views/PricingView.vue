@@ -38,7 +38,6 @@
                 <li><i class="fas fa-check" aria-hidden="true"></i>Up to 100 members</li>
                 <li><i class="fas fa-check" aria-hidden="true"></i>Member records management</li>
                 <li><i class="fas fa-check" aria-hidden="true"></i>Grade tracking</li>
-                <li><i class="fas fa-check" aria-hidden="true"></i>Digital membership cards</li>
                 <li><i class="fas fa-check" aria-hidden="true"></i>Basic reporting</li>
                 <li><i class="fas fa-check" aria-hidden="true"></i>Email support</li>
               </ul>
