@@ -9,7 +9,7 @@
         <p v-if="entry.status === 'draft'" class="editorial-note">Draft example — copy, date and availability require review before publication. This is not a release announcement or final guidance.</p>
         <ContentImage :image="entry.image" hero />
         <section v-for="section in entry.sections" :key="section.title" class="my-5"><h2 class="h3">{{ section.title }}</h2><p>{{ section.text }}</p></section>
-        <aside v-if="feature" class="p-4 bg-light rounded-3"><h2 class="h4">Explore {{ feature.title }}</h2><p>{{ feature.summary }}</p><router-link :to="'/' + feature.slug">Learn about {{ feature.title }}</router-link></aside>
+        <aside v-if="feature" class="p-4 bg-light rounded-3"><h2 class="h4">Explore {{ feature.title }}</h2><p>{{ feature.summary }}</p><router-link :to="'/features#' + feature.slug">Learn about {{ feature.title }}</router-link></aside>
         <p class="mt-4"><router-link to="/security-data-protection">Security &amp; Data Protection</router-link></p>
         <div v-if="related.length" class="mt-5"><h2 class="h4">Related reading</h2><ul><li v-for="item in related" :key="item.slug"><router-link :to="relatedBase + '/' + item.slug">{{ item.title }}</router-link><span v-if="item.status === 'draft'"> — draft example</span></li></ul></div>
       </div>

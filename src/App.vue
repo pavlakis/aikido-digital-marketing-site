@@ -24,7 +24,7 @@
           </div>
         </div>
         <nav aria-label="Footer navigation" class="row g-4">
-          <div class="col-sm-4"><h2 class="h5">Product</h2><ul class="list-unstyled"><li><router-link to="/features">All Features</router-link></li><li v-for="feature in features" :key="feature.slug"><router-link :to="'/' + feature.slug">{{ feature.title }}</router-link></li></ul></div>
+          <div class="col-sm-4"><h2 class="h5">Product</h2><ul class="list-unstyled"><li><router-link to="/features">All Features</router-link></li><li v-for="feature in features" :key="feature.slug"><router-link :to="'/features#' + feature.slug">{{ feature.title }}</router-link></li></ul></div>
           <div class="col-sm-4"><h2 class="h5">Resources</h2><ul class="list-unstyled"><li><router-link to="/resources">Resources</router-link></li><li><router-link to="/whats-new">What’s New</router-link></li></ul></div>
           <div class="col-sm-4"><h2 class="h5">Company</h2><ul class="list-unstyled"><li><router-link to="/about">About AikidoDigital</router-link></li><li><router-link to="/security-data-protection">Security &amp; Data Protection</router-link></li><li><router-link to="/contact">Contact</router-link></li></ul></div>
         </nav>

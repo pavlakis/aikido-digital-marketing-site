@@ -38,14 +38,14 @@ try {
     await tab.goto('http://127.0.0.1:5173/', { waitUntil: 'networkidle0' })
     await tab.screenshot({ path: '/tmp/aikido-home-mobile.png', clip: { x: 0, y: 0, width: 390, height: 844 } })
     await tab.setViewport({ width: 1440, height: 1000 })
-    await tab.goto('http://127.0.0.1:5173/digital-membership-cards', { waitUntil: 'networkidle0' })
-    await tab.screenshot({ path: '/tmp/aikido-cards-desktop.png', fullPage: true })
+    await tab.goto('http://127.0.0.1:5173/whats-new/grading-authority', { waitUntil: 'networkidle0' })
+    await tab.screenshot({ path: '/tmp/aikido-grading-authority-desktop.png', fullPage: true })
     await tab.goto('http://127.0.0.1:5173/whats-new', { waitUntil: 'networkidle0' })
     await tab.screenshot({ path: '/tmp/aikido-updates-desktop.png', fullPage: true })
     assert.deepEqual(errors, [], 'Browser errors or hydration warnings')
   }
   const issues = []
-  for (const path of ['/', '/contact', '/digital-membership-cards', '/whats-new', '/whats-new/grading-authority', '/resources', '/security-data-protection']) {
+  for (const path of ['/', '/contact', '/features', '/whats-new', '/whats-new/grading-authority', '/resources', '/security-data-protection']) {
     const result = await pa11y(`http://127.0.0.1:5173${path}`, { browser, standard: 'WCAG2AA', timeout: 30000 })
     issues.push(...result.issues.map(issue => ({ path, ...issue })))
   }

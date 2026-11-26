@@ -14,7 +14,7 @@
           <div class="col-lg-6">
             <div class="feature-card text-start">
               <div class="feature-icon"><i class="fas fa-users" aria-hidden="true"></i></div>
-              <h2 class="h4 fw-bold mb-3">Members</h2>
+              <h2 id="membership-management" class="h4 fw-bold mb-3">Members</h2>
               <p>Members apply and renew online, with their profile, membership status and expiry date kept in one reliable record. No more chasing paper forms or maintaining separate spreadsheets for who's paid and who hasn't.</p>
               <p class="mb-0">Spend less time chasing renewals — AikidoDigital tracks membership expiry dates and automatically reminds members when it's time to renew, and generates membership certificates automatically once they do.</p>
             </div>
@@ -23,7 +23,7 @@
           <div class="col-lg-6">
             <div class="feature-card text-start">
               <div class="feature-icon"><i class="fas fa-sitemap" aria-hidden="true"></i></div>
-              <h2 class="h4 fw-bold mb-3">Dojos &amp; Organisation Structure</h2>
+              <h2 id="organisation-management" class="h4 fw-bold mb-3">Dojos &amp; Organisation Structure</h2>
               <p>Most Aikido associations aren't a single club — they're made up of affiliated dojos, each with their own venues, class schedules and instructor appointments, sitting within a wider regional or national structure.</p>
               <p class="mb-0">AikidoDigital reflects that hierarchy directly: individual members belong to dojos, dojos belong to regions or associations, and associations report up to a national governing body — all managed in one place.</p>
             </div>
@@ -32,7 +32,7 @@
           <div class="col-lg-6">
             <div class="feature-card text-start">
               <div class="feature-icon"><i class="fas fa-graduation-cap" aria-hidden="true"></i></div>
-              <h2 class="h4 fw-bold mb-3">Grades &amp; Instructor Records</h2>
+              <h2 id="grading-management" class="h4 fw-bold mb-3">Grades &amp; Instructor Records</h2>
               <p>Keep a complete, verifiable grading history for every member — Kyu and Dan grades, teaching titles and instructor appointments by dojo — with grade certificates generated digitally rather than issued by hand.</p>
               <p class="mb-0">When a member moves dojos, transfers to another association, or an instructor takes on a new appointment, their record moves with them.</p>
             </div>
@@ -77,7 +77,7 @@
           <div class="col-lg-6">
             <div class="feature-card text-start">
               <div class="feature-icon"><i class="fas fa-chart-bar" aria-hidden="true"></i></div>
-              <h2 class="h4 fw-bold mb-3">Reporting &amp; Insights</h2>
+              <h2 id="reporting" class="h4 fw-bold mb-3">Reporting &amp; Insights</h2>
               <p>Generate membership reports, grade reports, organisation statistics, and insurance or compliance reporting for for committee meetings, AGMs or a governing-body return.</p>
               <p class="mb-0">Reporting is privacy-conscious by design: organisations get aggregated information by default, with controlled workflows for accessing more detailed data where appropriate.</p>
             </div>

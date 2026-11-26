@@ -20,10 +20,8 @@ so always deploy the complete build output. No server runtime is needed.
 The only published article is the Grading Authority product update in What’s New,
 dated 26 November 2026. The Resources collection is empty.
 
-All three membership-card announcements and the membership-card resource have been
-removed from the content arrays. Their article URLs no longer resolve to articles.
-The separate feature landing page remains availability-led; it is not a publication.
-Apple Wallet and Google Wallet availability still requires product verification.
+Product links lead to sections of the Features overview. The former standalone
+feature pages, including Digital Membership Cards, have been removed.
 
 New What's New posts appear only with `status: 'published'`. Resource drafts can be
 previewed publicly with draft labels and noindex; use `status: 'hidden'` to remove
@@ -88,7 +86,7 @@ No outcomes or quotes should be invented to fill the template.
 
 1. Verify product availability, approve screenshots and publish the first genuine update.
 2. Draft membership records and renewals guides using common demo questions.
-3. Publish a reviewed grading guide and update the grading feature page with real imagery.
+3. Publish a reviewed grading guide and update the grading section of the Features overview with real imagery.
 4. Publish organisation/reporting guidance for association officers and committees.
 5. Request approval for a real customer story and publish only substantiated outcomes.
 6. Review demo enquiries and content gaps; prepare a company announcement if warranted.

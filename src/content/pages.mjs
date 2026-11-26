@@ -1,4 +1,3 @@
-import { features } from './features.mjs'
 import { publishedUpdates, resources, visibleArticles } from './articles.mjs'
 import { customers } from './customers.mjs'
 export const baseUrl = 'https://aikidodigital.com'
@@ -10,7 +9,6 @@ export const pages = [
   { path: '/privacy-policy', name: 'PrivacyPolicy', view: 'PrivacyPolicy', title: 'Privacy Policy | AikidoDigital', description: 'Read how AikidoDigital handles personal information for website visitors, members, instructors and organisations.' },
   { path: '/sub-processors', name: 'SubProcessors', view: 'SubProcessors', title: 'Sub-Processors | AikidoDigital', description: 'See the sub-processors AikidoDigital uses to deliver its membership management platform.' },
   { path: '/security-data-protection', view: 'SecurityView', title: 'Security & Data Protection | AikidoDigital', description: 'Learn about role-based access, authentication and administrative audit logs, and find AikidoDigital’s privacy and sub-processor information.' },
-  ...features.map(feature => ({ path: '/' + feature.slug, view: 'FeatureDetail', title: `${feature.title} for Martial Arts Organisations | AikidoDigital`, description: feature.summary, props: { feature } })),
   ...[
     { path: '/whats-new', title: 'What’s New', description: 'Customer-facing product updates and announcements from AikidoDigital, with practical explanations for membership teams and organisation officers.', entries: publishedUpdates() },
     { path: '/resources', title: 'Resources', description: 'Educational resources for Aikido and martial arts organisations managing membership records, grading, renewals and multi-club administration.', entries: visibleArticles(resources) }

@@ -15,7 +15,7 @@ export function seoData(page, path) {
   ]
   const breadcrumb = [{ '@type': 'ListItem', position: 1, name: 'Home', item: baseUrl + '/' }]
   if (path !== '/') {
-    const parent = path.startsWith('/whats-new/') ? ['/whats-new', 'What’s New'] : path.startsWith('/resources/') ? ['/resources', 'Resources'] : page.view === 'FeatureDetail' ? ['/features', 'Features'] : null
+    const parent = path.startsWith('/whats-new/') ? ['/whats-new', 'What’s New'] : path.startsWith('/resources/') ? ['/resources', 'Resources'] : null
     if (parent) breadcrumb.push({ '@type': 'ListItem', position: 2, name: parent[1], item: baseUrl + parent[0] })
     breadcrumb.push({ '@type': 'ListItem', position: breadcrumb.length + 1, name: page.title.split(' | ')[0], item: url })
   }
