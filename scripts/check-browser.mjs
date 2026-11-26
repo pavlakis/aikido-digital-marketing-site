@@ -45,7 +45,7 @@ try {
     assert.deepEqual(errors, [], 'Browser errors or hydration warnings')
   }
   const issues = []
-  for (const path of ['/', '/contact', '/digital-membership-cards', '/whats-new', '/resources/membership-records', '/resources', '/security-data-protection']) {
+  for (const path of ['/', '/contact', '/digital-membership-cards', '/whats-new', '/whats-new/grading-authority', '/resources', '/security-data-protection']) {
     const result = await pa11y(`http://127.0.0.1:5173${path}`, { browser, standard: 'WCAG2AA', timeout: 30000 })
     issues.push(...result.issues.map(issue => ({ path, ...issue })))
   }

@@ -17,10 +17,8 @@ so always deploy the complete build output. No server runtime is needed.
 
 ## Current publication status
 
-The sole What’s New post is the Grading Authority product update, dated 26 November
-2026. Six educational guides appear in Resources, dated 2 October 2026. These dates
-refer to publication. Published entries appear in the indexes, related links,
-generated sitemap and Article structured data.
+The only published article is the Grading Authority product update in What’s New,
+dated 26 November 2026. The Resources collection is empty.
 
 All three membership-card announcements and the membership-card resource have been
 removed from the content arrays. Their article URLs no longer resolve to articles.
@@ -30,8 +28,7 @@ Apple Wallet and Google Wallet availability still requires product verification.
 New What's New posts appear only with `status: 'published'`. Resource drafts can be
 previewed publicly with draft labels and noindex; use `status: 'hidden'` to remove
 an entry from public routes and links. Never include confidential information in
-content files. The data-protection guide is a planning checklist and makes no legal
-or compliance claims. Seek qualified review before adding legal detail.
+content files. Seek qualified review before adding legal detail.
 
 ## Add an update or resource
 
@@ -90,7 +87,7 @@ No outcomes or quotes should be invented to fill the template.
 ## Suggested six-month editorial sequence
 
 1. Verify product availability, approve screenshots and publish the first genuine update.
-2. Expand the membership records and renewals guides using common demo questions.
+2. Draft membership records and renewals guides using common demo questions.
 3. Publish a reviewed grading guide and update the grading feature page with real imagery.
 4. Publish organisation/reporting guidance for association officers and committees.
 5. Request approval for a real customer story and publish only substantiated outcomes.
