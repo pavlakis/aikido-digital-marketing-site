@@ -21,12 +21,8 @@ export const whatsNew = [
         text: 'Choose which teaching titles can award grades and set a maximum for each. Fukushidoin can award kyu grades. For Shidoin and Shihan, you can set the limit at a kyu or dan grade. When your committee revises its policy, officers can compare the proposed limits with the current ones and record why they are changing. The new limits take effect when you publish them.'
       },
       {
-        title: 'Give instructors room to progress within a title',
-        text: 'Two instructors can hold the same title and have different grading responsibilities. Suppose your association allows Shidoin to award up to 1st dan. Your registrar could authorise one Shidoin to award up to 2nd kyu and another up to 1st dan. As the first instructor gains experience, the registrar can raise their limit within the same title. Each instructor sees only the grades their own grant and the current policy allow.'
-      },
-      {
         title: 'Choose where instructors can grade',
-        text: 'For each title, decide whether instructors can grade members at the dojos where they hold an appointment or at any dojo in your organisation. If a Shihan visits another member dojo for a grading, an association-wide rule lets them select an affiliated member in Grade Records and award a grade within their personal limit.'
+        text: 'For each title, decide whether instructors can grade members at the dojos where they hold an appointment or at any dojo in your organisation. If a Shihan visits another member dojo for a grading, an association-wide rule lets them select a member in Grade Records and award a grade within their personal limit.'
       },
       {
         title: 'Keep a teaching history for each instructor',
