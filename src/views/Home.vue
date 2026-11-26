@@ -6,11 +6,10 @@
         <div class="row align-items-center">
           <div class="col-lg-6">
             <div class="hero-content">
-              <h1 class="display-4 fw-bold mb-4">One platform for your entire Aikido organisation</h1>
-              <p class="lead mb-4">From individual members and dojos to regional associations and national governing bodies, AikidoDigital brings your membership records, grades, renewals, instructor appointments and reporting together in one purpose-built platform.</p>
+              <h1 class="display-4 fw-bold mb-4">Membership management for Aikido organisations</h1>
+              <p class="lead mb-4">AikidoDigital is membership management software for Aikido and martial arts organisations. Bring member administration, renewals, grading records, certificates, organisation structures and reporting together.</p>
               <div class="d-flex gap-3 flex-wrap">
-                <router-link to="/contact" class="btn btn-primary">Book a Demo</router-link>
-                <router-link to="/features" class="btn btn-outline-primary">Explore the Platform</router-link>
+                <router-link to="/features" class="btn btn-primary">Explore Features</router-link>
               </div>
             </div>
           </div>
@@ -36,7 +35,7 @@
           <div class="col-lg-4 col-md-4 col-sm-4 col-6 text-center">
             <div class="logo-container">
               <div>
-                <img src="/logos/joint-aikikai-council.jpg" alt="Joint Aikikai Council Logo" class="logo-image" />
+                <img src="/logos/joint-aikikai-council.jpg" alt="Joint Aikikai Council Logo" class="logo-image" loading="lazy" width="192" height="192" />
               </div>
             </div>
           </div>
@@ -44,7 +43,7 @@
           <div class="col-lg-4 col-md-4 col-sm-4 col-6 text-center">
             <div class="logo-container">
               <div>
-                <img src="/logos/british-birankai.jpeg" alt="British Birankai Logo" class="logo-image" />
+                <img src="/logos/british-birankai.jpeg" alt="British Birankai Logo" class="logo-image" loading="lazy" width="192" height="192" />
               </div>
             </div>
           </div>
@@ -52,7 +51,7 @@
           <div class="col-lg-4 col-md-4 col-sm-4 col-6 text-center">
             <div class="logo-container">
               <div>
-                <img src="/logos/united-kingdom-aikikai.png" alt="United Kingdom Aikikai Logo" class="logo-image" />
+                <img src="/logos/united-kingdom-aikikai.png" alt="United Kingdom Aikikai Logo" class="logo-image" loading="lazy" width="192" height="192" />
               </div>
             </div>
           </div>
@@ -60,7 +59,7 @@
           <div class="col-lg-4 col-md-4 col-sm-4 col-6 text-center">
             <div class="logo-container">
               <div>
-                <img src="/logos/aikido-bedford.jpg" alt="Aikido Bedford Logo" class="logo-image" />
+                <img src="/logos/aikido-bedford.jpg" alt="Aikido Bedford Logo" class="logo-image" loading="lazy" width="192" height="192" />
               </div>
             </div>
           </div>
@@ -68,7 +67,7 @@
           <div class="col-lg-4 col-md-4 col-sm-4 col-6 text-center">
             <div class="logo-container">
               <div>
-                <img src="/logos/leicester-aikikai.png" alt="Leicester Aikikai Logo" class="logo-image" />
+                <img src="/logos/leicester-aikikai.png" alt="Leicester Aikikai Logo" class="logo-image" loading="lazy" width="192" height="192" />
               </div>
             </div>
           </div>
@@ -76,7 +75,7 @@
           <div class="col-lg-4 col-md-4 col-sm-4 col-6 text-center">
             <div class="logo-container">
               <div>
-                <img src="/logos/british-aikikai.png" alt="British Aikikai Logo" class="logo-image" />
+                <img src="/logos/british-aikikai.png" alt="British Aikikai Logo" class="logo-image" loading="lazy" width="192" height="192" />
               </div>
             </div>
           </div>
@@ -264,19 +263,20 @@
       </div>
     </section>
 
-    <!-- CTA Banner -->
-    <section class="cta-section" role="region" aria-labelledby="cta-heading">
-      <div class="container text-center">
-        <h2 id="cta-heading" class="display-5 fw-bold mb-3">See AikidoDigital for your organisation</h2>
-        <p class="lead mb-5">Talk to us about how AikidoDigital can support your dojos, your administrators and your governing body.</p>
-        <a href="mailto:info@aikidodigital.com" class="btn btn-primary btn-lg">Book a Demo</a>
+    <section class="features-section"><div class="container">
+      <h2 class="h3 mb-4">Explore the product</h2><FeatureLinks />
+      <div class="row g-4 mt-4">
+        <div class="col-md-6"><h2 class="h4">Follow the product</h2><p>Read product updates as they are published.</p><router-link to="/whats-new">Read What’s New</router-link></div>
+        <div class="col-md-6"><h2 class="h4">Support your administrators</h2><p>Explore practical guides for membership and grading teams.</p><router-link to="/resources">Explore Resources</router-link></div>
       </div>
-    </section>
+    </div></section>
   </div>
 </template>
 
 <script>
+import FeatureLinks from '../components/FeatureLinks.vue'
 export default {
+  components: { FeatureLinks },
   name: 'HomeView'
 }
 </script>

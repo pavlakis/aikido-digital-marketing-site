@@ -81,17 +81,8 @@
 </template>
 
 <script>
-export default {
-  name: 'SubProcessors',
-  mounted() {
-    document.title = 'Sub-Processors - AikidoDigital';
-
-    let metaDescription = document.querySelector('meta[name="description"]');
-    if (metaDescription) {
-      metaDescription.setAttribute('content', 'List of GDPR sub-processors used by Aikido Digital Limited in the delivery of the AikidoDigital membership management platform.');
-    }
-  }
-}
+// Route metadata is managed centrally in src/content/pages.mjs.
+export default { name: 'SubProcessors' }
 </script>
 
 <style scoped>

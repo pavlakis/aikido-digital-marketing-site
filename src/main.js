@@ -1,9 +1,12 @@
-import { createApp } from 'vue'
+import { createApp, createSSRApp, nextTick } from 'vue'
 import App from './App.vue'
-import router from './router'
+import { makeRouter } from './router'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './assets/theme.css'
-
-const app = createApp(App)
+const router = makeRouter()
+const app = (document.getElementById('app').hasChildNodes() ? createSSRApp : createApp)(App)
 app.use(router)
-app.mount('#app')
+router.isReady().then(() => {
+  app.mount('#app')
+  router.afterEach(async () => { await nextTick(); document.getElementById('main')?.focus({ preventScroll: true }) })
+})

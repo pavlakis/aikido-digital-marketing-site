@@ -18,16 +18,12 @@
       </button>
 
       <div :class="['collapse', 'navbar-collapse', { show: isOpen }]" id="navbarNav" ref="navPanel" @keydown="onKeydown">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <router-link class="nav-link" :class="{ active: $route.name === 'Home' }" :to="{ name: 'Home' }">Home</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link class="nav-link" :class="{ active: $route.name === 'Features' }" :to="{ name: 'Features' }">Features</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link class="nav-link" :class="{ active: $route.name === 'Contact' }" :to="{ name: 'Contact' }">Contact</router-link>
-          </li>
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><router-link class="nav-link" to="/features">Product</router-link></li>
+          <li class="nav-item"><router-link class="nav-link" to="/resources">Resources</router-link></li>
+          <li class="nav-item"><router-link class="nav-link" to="/whats-new">What’s New</router-link></li>
+          <li class="nav-item"><router-link class="nav-link" to="/about">About</router-link></li>
+          <li class="nav-item"><router-link class="nav-link" to="/contact">Contact</router-link></li>
         </ul>
       </div>
     </div>
@@ -35,7 +31,8 @@
 </template>
 
 <script>
-import { ref, onBeforeUnmount, nextTick } from 'vue'
+import { ref, watch, onMounted, onBeforeUnmount, nextTick } from 'vue'
+import { useRoute } from 'vue-router'
 
 function getFocusableElements(container) {
   if (!container) return []
@@ -49,7 +46,12 @@ function getFocusableElements(container) {
 export default {
   name: 'NavBar',
   setup() {
+    const route = useRoute()
     const isOpen = ref(false)
+    watch(() => route.fullPath, () => {
+      isOpen.value = false
+      document.removeEventListener('focusin', maintainFocus)
+    })
     const navPanel = ref(null)
     const toggleButton = ref(null)
     let focusable = []
@@ -104,7 +106,21 @@ export default {
       }
     }
 
-    onBeforeUnmount(() => document.removeEventListener('focusin', maintainFocus))
+    let desktopQuery
+    function onDesktopChange(event) {
+      if (event.matches) {
+        isOpen.value = false
+        document.removeEventListener('focusin', maintainFocus)
+      }
+    }
+    onMounted(() => {
+      desktopQuery = window.matchMedia('(min-width: 992px)')
+      desktopQuery.addEventListener('change', onDesktopChange)
+    })
+    onBeforeUnmount(() => {
+      document.removeEventListener('focusin', maintainFocus)
+      desktopQuery?.removeEventListener('change', onDesktopChange)
+    })
 
     return { isOpen, toggle, navPanel, toggleButton, onKeydown }
   }
