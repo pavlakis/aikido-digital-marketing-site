@@ -1,0 +1,1 @@
+<template><section class="container py-5"><h1>Page not found</h1><p>This page is unavailable. Explore our features or return to the homepage.</p><router-link to="/" class="btn btn-primary me-3">Home</router-link><router-link to="/features">Explore Features</router-link></section></template>

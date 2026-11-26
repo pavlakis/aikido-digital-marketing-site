@@ -9,6 +9,7 @@
           </p>
         </div>
 
+        <section class="mb-5"><h2 class="h3 mb-4">Explore key capabilities</h2><FeatureLinks /></section>
         <div class="row g-4 mb-5">
           <div class="col-lg-6">
             <div class="feature-card text-start">
@@ -77,7 +78,7 @@
             <div class="feature-card text-start">
               <div class="feature-icon"><i class="fas fa-chart-bar" aria-hidden="true"></i></div>
               <h2 class="h4 fw-bold mb-3">Reporting &amp; Insights</h2>
-              <p>Generate membership reports, grade reports, organisation statistics, and insurance or compliance reporting in seconds — ready for committee meetings, AGMs or a governing-body return.</p>
+              <p>Generate membership reports, grade reports, organisation statistics, and insurance or compliance reporting for for committee meetings, AGMs or a governing-body return.</p>
               <p class="mb-0">Reporting is privacy-conscious by design: organisations get aggregated information by default, with controlled workflows for accessing more detailed data where appropriate.</p>
             </div>
           </div>
@@ -92,24 +93,16 @@
         </div>
       </div>
     </section>
-
-    <!-- CTA Banner -->
-    <section class="cta-section" role="region" aria-labelledby="features-cta-heading">
-      <div class="container text-center">
-        <h2 id="features-cta-heading" class="display-5 fw-bold mb-3">Interested in AikidoDigital?</h2>
-        <p class="lead mb-5">Book a demo and we'll walk you through how AikidoDigital can support your organisation.</p>
-        <router-link to="/contact" class="btn btn-primary btn-lg">Book a Demo</router-link>
-      </div>
-    </section>
   </div>
 </template>
 
 <script>
-export default { name: 'FeaturesView' }
+import FeatureLinks from '../components/FeatureLinks.vue'
+export default { name: 'FeaturesView', components: { FeatureLinks } }
 </script>
 
 <style scoped>
 .page-content {
-  padding-top: 100px;
+  padding-top: 0;
 }
 </style>

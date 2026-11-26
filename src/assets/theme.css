@@ -233,7 +233,7 @@ body {
     padding: 50px 0 30px;
 }
 
-.footer h5 {
+.footer .h5 {
     color: var(--primary-orange);
     margin-bottom: 20px;
 }
@@ -370,3 +370,19 @@ body {
     }
 }
 
+
+/* Marketing pages reuse the existing Bootstrap grid, cards and brand palette. */
+.marketing-copy { max-width: 800px; }
+.marketing-copy p { overflow-wrap: anywhere; }
+.editorial-note { padding: 1rem 1.25rem; border-left: 4px solid #92501d; background: #fff4df; color: #49301c; }
+.draft-label { display: inline-block; padding: .2rem .65rem; background: #fff4df; color: #49301c; border-radius: .3rem; font-size: .875rem; }
+.screenshot-placeholder { min-height: 260px; padding: 2rem; display: flex; align-items: center; justify-content: center; text-align: center; border: 2px dashed #767676; border-radius: 15px; background: #f8f9fa; color: #414141; }
+.features-section a:not(.btn), .marketing-copy a:not(.btn), .feature-card a { color: #754018; text-underline-offset: .2em; }
+.navbar-nav .nav-link:hover, .navbar-nav .nav-link.active, .navbar-nav .router-link-active { color: #874418 !important; }
+.hero-content { color: #262626; }
+.hero-content .btn-outline-primary { color: #262626; border-color: #262626; }
+.footer nav li { margin-bottom: .5rem; }
+@media (max-width: 991.98px) {
+  .navbar-collapse { max-height: calc(100dvh - 70px); overflow-y: auto; padding-bottom: 1rem; }
+  .navbar-collapse .btn { margin-top: .5rem; }
+}
